@@ -13,6 +13,7 @@ function Menu({ children, items = [] }) {
     return (
         <Tippy
             delay={[0, 1000]}
+            visible
             placement="bottom-end"
             interactive={true}
             render={(attrs) => (
